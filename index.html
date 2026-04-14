@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김선목 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">KIM SUNMOK</a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="메뉴 열기">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>김선목</h1>
+          <p class="hero-text">포트폴리오 홈페이지</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">Projects</a>
+            <a class="button button-secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <aside class="hero-profile">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="팬더.jpg" alt="Panda profile" onerror="this.onerror=null; this.src='profile.svg';" />
+            </div>
+            <div class="profile-info">
+              <p class="profile-role">Portfolio</p>
+              <h2 class="profile-name">강원대학교<br>컴퓨터공학과</h2>
+              <p>깔끔하고 사용하기 쉬운 웹을 만듭니다.</p>
+              <ul class="profile-meta">
+                <li>📍 Seoul</li>
+                <li>✉️ sunmok0714@naver.com</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="hero-panda" aria-hidden="true"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Projects</p>
+          <h2>최근 작업</h2>
+          <p>실제처럼 구성된 예제 프로젝트로 포트폴리오를 소개합니다.</p>
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <!-- JavaScript가 더미 프로젝트 카드를 추가합니다 -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>연락하기</h2>
+          <p>문의나 협업 제안은 아래 이메일 또는 소셜 채널로 연락주세요.</p>
+        </div>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <h3>이메일</h3>
+            <p>sunmok0714@naver.com</p>
+          </div>
+          <div class="contact-card">
+            <h3>전화</h3>
+            <p>010-4433-7218</p>
+          </div>
+          <div class="contact-card">
+            <h3>Github</h3>
+            <p><a href="https://github.com/kimseonmok" target="_blank" rel="noopener">github.com/kimseonmok</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>메시지</h3>
+            <p>웹 디자인 및 프론트엔드 협업 문의 환영</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 김선목. 모든 권리 보유.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
